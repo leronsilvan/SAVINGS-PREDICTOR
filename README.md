@@ -7,12 +7,12 @@ It analyzes your income, expenses, and lifestyle to provide personalized savings
 
 # Features
 
-✅ Predicts monthly **savings** using a trained ML model  
-✅ Smart budgeting with **50/30/20 rule**  
-✅ Personalized **spending recommendations**  
-✅ Visual **income breakdown**  
-✅ Custom **investment plan** based on your risk appetite  
-✅ Calculates your **financial health score**
+Predicts monthly **savings** using a trained ML model  
+Smart budgeting with **50/30/20 rule**  
+Personalized **spending recommendations**  
+Visual **income breakdown**  
+Custom **investment plan** based on your risk appetite  
+Calculates your **financial health score**
 
 
 
