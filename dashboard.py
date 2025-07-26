@@ -1,9 +1,14 @@
 import streamlit as st
 import pandas as pd
 import joblib
+from huggingface_hub import hf_hub_download
 
-# Load ML Model
-model = joblib.load("savings_predictor.pkl")
+# Download model from Hugging Face Hub
+model_path = hf_hub_download(repo_id="Leron7/finance", filename="savings_predictor.pkl")
+
+# Load the model
+with open(model_path, "rb") as file:
+    model = joblib.load(file)
 
 st.set_page_config(page_title="💸 Financial Guidance App", layout="wide")
 st.title("💡 Personal Financial Guidance Dashboard")
